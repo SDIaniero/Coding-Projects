@@ -1,0 +1,16 @@
+.navigation-clean-search{
+	background:#fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #333;
+	border-radius: 0;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 0;
+}
+
+@media (max-width: 767px)
+.navigation-clean-search{
+	padding-top: 0;
+	padding-bottom: 0;
+}
