@@ -8,9 +8,9 @@ var driver = new webdriver.Builder()
     .forBrowser('chrome')
     .build();
 
-driver.get('https://mxw-qa.my.salesforce.com');
-driver.findElement(By.id('username')).sendKeys('mxw_qualityassurance@preventure.com');
-driver.findElement(By.id('password')).sendKeys('qualityforc3');
+//line has been redacted
+//line has been redacted
+//line has been redacted
 driver.findElement(By.id('Login')).click();
 driver.wait(until.elementLocated(By.id('globalHeaderNameMink')), 10000);
 
